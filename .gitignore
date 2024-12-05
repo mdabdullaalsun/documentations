@@ -1,0 +1,24 @@
+# Ignore all files in the markdown folder
+markdown/*
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+
+# Ignore build directories
+/build/
+out/
+target/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore coverage reports
+coverage/
