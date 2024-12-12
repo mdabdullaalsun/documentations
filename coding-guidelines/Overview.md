@@ -45,7 +45,39 @@ During the communication between layers
  - The caller of any method should get expected data or some exception. The method should not return null or any other unexpected value.
 
 ## Folder Structure
-
+```
+project-name/
+├── build.gradle.kts
+├── gradle/
+├── gradlew
+├── gradlew.bat
+├── settings.gradle.kts
+└── src/
+    ├── main/
+    │   ├── kotlin/
+    │   │   └── com/
+    │   │       └── rakuten/
+    │   │           └── mu2.project.name/
+    │   │               ├── adapters/
+    │   │               ├── configs/
+    │   │               ├── controllers/
+    │   │               ├── exceptions/
+    │   │               ├── models/
+    │   │               ├── repositories/
+    │   │               ├── logics/
+    │   │               ├── services/
+    │   │               ├── utils/
+    │   │               └── ProjectApplication.kt/
+    │   └── resources/
+    │       ├── application.yaml
+    └── test/
+        ├── kotlin/
+        │   └── com/
+        │       └── rakuten/
+        │           └── mu2.project.name/
+        │               ├── ProjectApplicationTests.kt
+        └── resources/
+```
 ## Coding Aspects
 ### Validations
  - Input parameters should be validated upon calling the controller method. 
