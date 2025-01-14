@@ -1,66 +1,77 @@
-# Mu SOD 
+# Mu SOD
 
 ## Send API
-- Maximum Reservation observed per day: 9,739,859
-- Maximum Reservation observed per hour: 1,131,119
 
-Throughput (December 2024 SS)
-- Maximum Allowed QPS: 1000
-- Maximum Observed QPS: 972
-- Maximum Observed QPS 2xx: 866
-- Per Service Allowed QPS: 350
-- Per Service Observed QPS: 356 (due to overlapping of seconds)
+### Maximum Reservation Observed
+| Metric                          | Value       |
+|---------------------------------|-------------|
+| Maximum Reservation per Day     | 9,739,859   |
+| Maximum Reservation per Hour    | 1,131,119   |
 
-Response Time (Last 30days data on 2024-12-05)
-- 75th Percentile: 12 ms
-- 95th Percentile: 15 ms
-- 99th Percentile: 19 ms
-- 99.5th Percentile: 26 ms
-- 99.995th Percentile: 1,072 ms
-- Max Response Time: 5,509 ms
+### Throughput (December 2024 SS)
+| Metric                   | Value                               |
+|--------------------------|-------------------------------------|
+| Maximum Allowed QPS      | 1,000                               |
+| Maximum Observed QPS     | 972                                 |
+| Maximum Observed QPS 2xx | 866                                 |
+| Per Service Allowed QPS  | 350                                 |
+| Per Service Observed QPS | 356 (due to overlapping of seconds) |
 
-Request Size (Last 2days data on 2024-12-05)
-- Maximum Allowed Request Size: 100KB of template
-- 75th Percentile: 41.2 KB
-- 95th Percentile: 41.3 KB
-- 99th Percentile: 93.7 KB
-- 99.5th Percentile: 94.9 KB
+### Response Time (Last 30 days data on 2024-12-05)
+| Percentile/Max Response Time    | Time (ms)   |
+|---------------------------------|-------------|
+| 75th Percentile                 | 12          |
+| 95th Percentile                 | 15          |
+| 99th Percentile                 | 19          |
+| 99.5th Percentile               | 26          |
+| 99.995th Percentile             | 1,072       |
+| Max Response Time               | 5,509       |
 
-Load Continues for around 50 minutes (19:55 to 20:45) 
+### Request Size (Last 2 days data on 2024-12-05)
+| Percentile/Max Request Size  | Size (KB)      |
+|------------------------------|----------------|
+| Maximum Allowed Request Size | 100 (template) |
+| 75th Percentile              | 41.2           |
+| 95th Percentile              | 41.3           |
+| 99th Percentile              | 93.7           |
+| 99.5th Percentile            | 94.9           |
+
+**Load Continues for around 50 minutes (19:55 to 20:45)**
 
 ## Check API
-Throughput (December 2024 SS)
-- Maximum Allowed QPS: 400
-- Maximum Observed QPS: 972
-- Maximum Observed QPS 2xx: 866
-- Per Service Allowed QPS: 200
-- Per Service Observed QPS: 356 (due to overlapping of seconds)
 
-Response Time (Last 30days data on 2024-12-05)
-- 75th Percentile: 12 ms
-- 95th Percentile: 15 ms
-- 99th Percentile: 19 ms
-- 99.5th Percentile: 26 ms
-- 99.995th Percentile: 1,072 ms
-- Max Response Time: 5,509 ms
+### Throughput (December 2024 SS)
+| Metric                          | Value       |
+|---------------------------------|-------------|
+| Maximum Allowed QPS             | 400         |
+| Maximum Observed QPS            | 255         |
+| Maximum Observed QPS 2xx        | 255         |
+| Per Service Allowed QPS         | 200         |
+| Per Service Observed QPS        | 127         |
 
-Request Size (Last 2days data on 2024-12-05)
-- Maximum Allowed Request Size: 100KB of template
-- 75th Percentile: 41.2 KB
-- 95th Percentile: 41.3 KB
-- 99th Percentile: 93.7 KB
-- 99.5th Percentile: 94.9 KB
+### Response Time (Last 30 days data on 2025-01-15)
+| Percentile/Max Response Time    | Time (ms)   |
+|---------------------------------|-------------|
+| 75th Percentile                 | 4           |
+| 95th Percentile                 | 6           |
+| 99th Percentile                 | 56          |
+| 99.5th Percentile               | 505         |
+| 99.995th Percentile             | 1,228       |
+| Max Response Time               | 2,985       |
+
 
 # Mu LMD
-Email Size (Last 2days data on 2024-12-05)
-- Maximum Allowed Request Size: ~
-- 75th Percentile: 54.3 KB
-- 95th Percentile: 87.4 KB
-- 99th Percentile: 123.7 KB
-- 99.5th Percentile: 154.7 KB
-- 99.995th Percentile: 218.1 KB
 
-# Summary
+## Email Size (Last 2 days data on 2024-12-05)
+| Percentile/Max Size          | Size     |
+|------------------------------|----------|
+| Maximum Allowed Request Size | ~        |
+| 75th Percentile              | 54.3 KB  |
+| 95th Percentile              | 87.4 KB  |
+| 99th Percentile              | 123.7 KB |
+| 99.5th Percentile            | 154.7 KB |
+| 99.995th Percentile          | 218.1 KB |
+
 
 ## File Size
 
