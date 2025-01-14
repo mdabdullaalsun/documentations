@@ -60,12 +60,42 @@ Email Size (Last 2days data on 2024-12-05)
 - 99.5th Percentile: 154.7 KB
 - 99.995th Percentile: 218.1 KB
 
-## Bulk
-Reservation Count:
-- Average Reservation Count per day:
-- Maximum Reservation Count per day:
+# Summary
 
-## Instant
-Reservation Count:
-- Average Reservation Count per day:
-- Maximum Reservation Count per day:
+## File Size
+
+| Percentile/Max Size | Overall        | Instant    | Bulk           |
+|---------------------|----------------|------------|----------------|
+| 75th Percentile     | 1,177          | 963        | 28,942         |
+| 95th Percentile     | 22,399         | 7,510      | 12,739,036     |
+| 99th Percentile     | 2,154,580      | 81,132     | 435,498,239    |
+| 99.5th Percentile   | 28,927,030     | 81,261     | 1,035,543,375  |
+| Max Size            | 10,945,630,279 | 26,804,813 | 10,945,630,279 |
+
+## Average Line Size
+
+| Percentile/Max Size | Overall       | Instant       | Bulk           |
+|---------------------|---------------|---------------|----------------|
+| 75th Percentile     | 121           | 114           | 234            |
+| 95th Percentile     | 329           | 329           | 965            |
+| 99th Percentile     | 899           | 758           | 5,768          |
+| 99.5th Percentile   | 2,040         | 878           | 11,369         |
+| Max Size            | 78,574        | 8,680         | 78,574         |
+
+## Requests
+
+| Peak                | Overall       | Instant       | Bulk           |
+|---------------------|---------------|---------------|----------------|
+| Peak per Second     | 24            | 16            | 16             |
+| Peak per Minute     | 693           | 252           | 674            |
+| Peak per Hour       | 4,117         | 3,074         | 2,944          |
+| Peak per Day        | 48,366        | 43,659        | 6,773          |
+
+## Sending
+
+| Metric              | Overall       | Bulk          |
+|---------------------|---------------|---------------|
+| Max Possible        | 9,313         | 9,313         |
+| Peak per Minute     |               | 318,415       |
+| Peak per Hour       |               | 15,299,719    |
+| Peak per Day        |               | 145,378,619   |
