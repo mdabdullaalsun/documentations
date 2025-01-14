@@ -62,6 +62,16 @@
 
 # Mu LMD
 
+## API Performance 
+| Percentile/Max Response Time | Time (ms) |
+|------------------------------|-----------|
+| 75th Percentile              | 67        |
+| 95th Percentile              | 130       |
+| 99th Percentile              | 237       |
+| 99.5th Percentile            | 262       |
+| 99.995th Percentile          | 2,804     |
+| Max Response Time            | 15,155    |
+
 ## Email Size (Last 2 days data on 2024-12-05)
 | Percentile/Max Size          | Size     |
 |------------------------------|----------|
